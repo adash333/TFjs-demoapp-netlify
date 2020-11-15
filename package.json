@@ -11,7 +11,7 @@
   },
   "scripts": {
     "mobilenet": "SET NODE_ENV=development & parcel mobilenet\\index.html --no-hmr --open",
-    "build": "parcel build mobilenet\\index.html -d public",
+    "build": "parcel build mobilenet/index.html -d public",
     "ssd": "NODE_ENV=development parcel ssd/index.html --no-hmr --open",
     "control_flow": "NODE_ENV=development parcel control_flow/index.html --no-hmr --open"
   },
